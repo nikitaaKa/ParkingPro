@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="10" nextobjectid="17">
+ <tileset firstgid="1" source="../tilesets/decorations.tsx"/>
+ <tileset firstgid="170" source="../tilesets/cars.tsx"/>
+ <layer id="2" name="background" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyLZ2BgcCWAK4E4mEgcBMQWBHAOECcCcQQRNAyzA7EeEGug0RFYsCkQWyPRImjyxNgdjyUclgAxIxHhUgDEtUSESxcQT0cLFwCkZR6z
+  </data>
+ </layer>
+ <layer id="3" name="decor" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <objectgroup id="5" name="cars">
+  <object id="1" gid="170" x="35" y="156.99" width="58" height="122"/>
+  <object id="2" gid="178" x="509" y="445" width="58" height="122" rotation="-90"/>
+  <object id="3" gid="194" x="133" y="582" width="58" height="122"/>
+  <object id="5" gid="202" x="486" y="593" width="58" height="122"/>
+  <object id="6" gid="172" x="633.907" y="221.804" width="58" height="122" rotation="218.962"/>
+  <object id="7" gid="173" x="406.001" y="162.506" width="63" height="118" rotation="343.547"/>
+  <object id="9" gid="180" x="210.992" y="238.419" width="58" height="122" rotation="10.8959"/>
+  <object id="10" gid="173" x="52.0657" y="307.684" width="70" height="150" rotation="147.193"/>
+ </objectgroup>
+ <objectgroup id="9" name="collision">
+  <object id="11" gid="104" x="142.25" y="310" width="103.5" height="44.25"/>
+  <object id="12" gid="104" x="264.75" y="309.625" width="109" height="44"/>
+  <object id="13" gid="104" x="393.5" y="309.625" width="108.25" height="43.75"/>
+  <object id="14" gid="104" x="200.833" y="374" width="109" height="44"/>
+  <object id="15" gid="104" x="329.583" y="374" width="108.25" height="43.75"/>
+  <object id="16" gid="104" x="457.875" y="370.125" width="44.25" height="43.75"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="10" nextobjectid="50">
+ <tileset firstgid="1" source="../tilesets/decorations.tsx"/>
+ <tileset firstgid="170" source="../tilesets/cars.tsx"/>
+ <layer id="2" name="background" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyLZ2BgcCWAK4E4mEgcBMQWBHAOECcCcQQRNAyzA7EeEGug0RFYsCkQWyPRImjyxNgdjxYGS4CYkYhwKQDiWiLCpQuIp2MJFwCosR6z
+  </data>
+ </layer>
+ <layer id="3" name="decor" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <objectgroup id="5" name="cars">
+  <object id="28" gid="194" x="8.21659" y="270.161" width="58" height="122" rotation="90"/>
+  <object id="29" gid="170" x="358.136" y="573.984" width="58" height="122"/>
+  <object id="30" gid="186" x="293.185" y="61.9233" width="58" height="122" rotation="180"/>
+  <object id="31" gid="178" x="379.283" y="210.708" width="58" height="122" rotation="90"/>
+  <object id="32" gid="170" x="154.974" y="21.1397" width="58" height="122" rotation="180"/>
+  <object id="33" gid="194" x="295.45" y="145.001" width="58" height="122"/>
+  <object id="34" gid="202" x="356.626" y="124.609" width="58" height="122"/>
+  <object id="35" gid="203" x="475.955" y="12.832" width="58" height="122" rotation="180"/>
+  <object id="37" gid="178" x="31.1123" y="151.798" width="58" height="122"/>
+  <object id="39" gid="194" x="494.081" y="34.7342" width="58" height="122" rotation="90"/>
+  <object id="40" gid="170" x="643.621" y="277.17" width="58" height="122" rotation="180"/>
+  <object id="41" gid="178" x="420.067" y="604.949" width="58" height="122"/>
+  <object id="42" gid="186" x="634.174" y="486.547" width="58" height="122" rotation="189.256"/>
+  <object id="43" gid="194" x="232.121" y="603.57" width="58" height="122" rotation="345.042"/>
+  <object id="44" gid="203" x="100.595" y="560.389" width="58" height="122"/>
+  <object id="45" gid="202" x="91.5325" y="479.577" width="58" height="122" rotation="180"/>
+  <object id="47" gid="186" x="40.9306" y="463.717" width="58" height="122"/>
+ </objectgroup>
+ <objectgroup id="9" name="collision" visible="0">
+  <object id="11" gid="104" x="142.25" y="310" width="103.5" height="44.25"/>
+  <object id="12" gid="104" x="264.75" y="309.625" width="109" height="44"/>
+  <object id="13" gid="104" x="393.5" y="309.625" width="108.25" height="43.75"/>
+  <object id="14" gid="104" x="200.833" y="374" width="109" height="44"/>
+  <object id="15" gid="104" x="329.583" y="374" width="108.25" height="43.75"/>
+  <object id="16" gid="104" x="457.875" y="370.125" width="44.25" height="43.75"/>
+ </objectgroup>
+</map>

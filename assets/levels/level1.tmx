@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="12" nextobjectid="109">
+ <tileset firstgid="1" source="../tilesets/decorations.tsx"/>
+ <tileset firstgid="170" source="../tilesets/cars.tsx"/>
+ <layer id="2" name="background" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyLZ2BgcCWAK4E4mEgcBMQWBHAOECcCcQQRNAyzA7EeEGug0RFYsCkQWyPRImjyxNgdTyBMlgBxOBHhUQDEtUSESxcQewExAKClHlQ=
+  </data>
+ </layer>
+ <layer id="11" name="decor" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <objectgroup id="5" name="cars">
+  <object id="18" gid="178" x="508.622" y="293.315" width="58" height="122" rotation="81.2222"/>
+  <object id="19" gid="170" x="481" y="156.333" width="58" height="122"/>
+  <object id="20" gid="186" x="471" y="182.333" width="58" height="122" rotation="-90"/>
+  <object id="21" gid="194" x="219.977" y="129.33" width="58" height="122" rotation="93.6618"/>
+  <object id="22" gid="202" x="50.231" y="97.1327" width="58" height="122" rotation="103.422"/>
+  <object id="104" gid="178" x="504.659" y="586.826" width="58" height="122" rotation="308.201"/>
+  <object id="106" gid="203" x="227" y="509" width="58" height="122"/>
+  <object id="107" gid="186" x="382.838" y="544.646" width="58" height="122" rotation="109.088"/>
+  <object id="108" gid="170" x="33.5195" y="600.802" width="58" height="122" rotation="10.3428"/>
+ </objectgroup>
+ <objectgroup id="9" name="collision" visible="0">
+  <object id="11" gid="104" x="142.25" y="310" width="103.5" height="44.25"/>
+  <object id="12" gid="104" x="264.75" y="309.625" width="109" height="44"/>
+  <object id="13" gid="104" x="393.5" y="309.625" width="108.25" height="43.75"/>
+  <object id="14" gid="104" x="200.833" y="374" width="109" height="44"/>
+  <object id="15" gid="104" x="329.583" y="374" width="108.25" height="43.75"/>
+  <object id="16" gid="104" x="457.875" y="370.125" width="44.25" height="43.75"/>
+ </objectgroup>
+</map>
